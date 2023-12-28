@@ -1,0 +1,6 @@
+<div *ngFor="let text of texts; let i = index">
+    <p>{{ text }}</p>
+    <button (click)="toggleVisibility(i)">Toggle Visibility</button>
+    <hr>
+  </div>
+  
